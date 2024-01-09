@@ -46,21 +46,29 @@ const Customerslider = () => {
   };
   return (
     <>
-      <div className=" max-w-[1200px] px-3  pb-[100px] mx-auto overflow-hidden">
-        <p className=" text-[#313EF7] text-center font-ff-mont text-[20px] font-semibold leading-[normal] xs:leading-[24px]">
+      <div className=" max-w-[1200px] px-3  pb-[150px]  mx-auto overflow-hidden">
+        <p className=" text-[#313EF7] text-center font-ff-mont text-[15px] sm:text-[15px] font-semibold leading-[normal] xs:leading-[24px]">
           What’s our customer saying
         </p>
-        <div className=" text[#011736] text-center xs:[text-35px] text-[32px] lg:text-[40px] font-bold leading-[normal] xs:leading-[150%] tracking-[0.6px] pt-2 ">
+        <div className=" text[#011736] text-center  text-[25px] lg:text-[40px] font-bold leading-[normal] xs:leading-[150%] tracking-[0.6px] pt-2 ">
           Our Customer Feedback
         </div>
         <div className=" flex flex-wrap flex-row -mx-3 mt-[60px]">
-          <div className=" w-full md:w-1/2 lg:w-7/12 px-3"  data-aos-duration="3000" data-aos="fade-up-right">
+          <div
+            className=" w-full md:w-1/2 lg:w-7/12 px-3"
+            data-aos-duration="3000"
+            data-aos="fade-up-right"
+          >
             <img src={worldmap} alt="worldmap" className=" w-full h-full" />
           </div>
-          <div className=" w-full md:w-1/2 lg:w-5/12 px-3"  data-aos-duration="3000" data-aos="fade-up-left">
+          <div
+            className=" w-full md:w-1/2 lg:w-5/12 px-3"
+            data-aos-duration="3000"
+            data-aos="fade-up-left"
+          >
             <Slider {...settings} className=" shadow-shadow">
-              <div className=" max-w-[500px] flex w-full sm:ml-0 flex-col rounded-3xl shadow-lg ">
-                <div className="py-[30px] px-5">
+              <div className=" max-w-[500px]  flex w-full sm:ml-0 flex-col rounded-3xl shadow-lg ">
+                <div className="py-[30px] px-5 ">
                   <div className=" flex items-center gap-4">
                     <img src={sliderimg1} alt="image" />
                     <div className="flex flex-col">
@@ -68,7 +76,7 @@ const Customerslider = () => {
                         Jaylon Vaccaro
                       </p>
                       <span>
-                        <Starfive/>
+                        <Starfive />
                       </span>
                     </div>
                   </div>
@@ -79,8 +87,9 @@ const Customerslider = () => {
                   </p>
                 </div>
               </div>
-              <div className=" max-w-[500px] flex w-full sm:ml-0 flex-col rounded-3xl shadow-lg">
-                <div className="py-[30px] px-5">
+
+              <div className=" max-w-[500px]  flex w-full sm:ml-0 flex-col rounded-3xl shadow-lg">
+                <div className="py-[30px] px-5  ml-[10px]">
                   <div className=" flex items-center gap-4">
                     <img src={sliderimg2} alt="image" />
                     <div className="flex flex-col">
@@ -88,7 +97,7 @@ const Customerslider = () => {
                         Jaylon Vaccaro
                       </p>
                       <span>
-                        <Starfive/>
+                        <Starfive />
                       </span>
                     </div>
                   </div>

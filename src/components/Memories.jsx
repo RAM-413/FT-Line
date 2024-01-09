@@ -32,7 +32,7 @@ export const Memories = () => {
   return (
     <>
       <div className=" bg-[#FFFFF] overflow-hidden">
-        <div className="max-w-[1200px] mx-auto px-3 pb-[30px] sm:pb-[100px]">
+        <div className="max-w-[1200px] mx-auto px-3 pb-[30px]  sm:pb-[100px]">
           <h2 className=" text-center text-slate-900 md:text-[40px] text-[30px]  font-bold font-['Montserrat'] capitalize md:leading-[60px] leading-[40px] tracking-wide pb-[40px]">
             Make memories with us
           </h2>

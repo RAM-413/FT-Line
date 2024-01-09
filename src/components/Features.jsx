@@ -37,9 +37,9 @@ const myarray = [
 
 const Features = () => {
   const cardcomponent = myarray.map((myarray) => (
-    <div key={myarray.Img} className="flex justify-center items center overflow-hidden">
+    <div key={myarray.Img} className="flex justify-center items center ">
       <div
-        className={` ${myarray.margin} ${myarray.ani} flex flex-col justify-center  items-center border max-w-[281.633px] rounded-[185px] bg-[#fff] shadow-[0_100px_200px_0_rgba(1,23,54,0.05)] px-5 py-10` } data-aos-duration="3000" data-aos="fade-up-right"
+        className={` ${myarray.margin} ${myarray.ani} flex flex-col justify-center  items-center  max-w-[281.633px] rounded-[185px] bg-[#fff] shadow-[0_100px_200px_0_rgba(1,23,54,0.05)] px-5 py-10` } data-aos-duration="3000" data-aos="fade-up-right"
       >
         <div className=" flex justify-center items-center w-[70px] h-[70px] rounded-[50px] bg-[#F5F5FF] ">
           {myarray.Img}

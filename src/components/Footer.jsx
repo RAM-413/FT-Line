@@ -6,6 +6,8 @@ import twitter from "../assets/images/twitter.webp";
 import img_c from "../assets/images/img-c.webp";
 
 const Footer = () => {
+  const ram = new Date();
+  const year = ram.getFullYear();
   return (
     <>
       <div className=" bg-img-footer py-4 bg-no-repeat  bg-cover bg-center overflow-hidden">
@@ -174,7 +176,7 @@ const Footer = () => {
           <p className=" text-white sm:text-sm  text-[12px] font-normal font-['Montserrat'] flex items-center gap-1  justify-center pt-2">
             CopyrightFT <img src={img_c} alt="" />{" "}
             <span className="text-white sm:text-sm text-[12px] font-normal font-['Montserrat']">
-              PLANE 2022 All right reserved
+              PLANE {year} All right reserved
             </span>
           </p>
         </div>
